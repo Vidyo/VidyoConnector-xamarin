@@ -1,4 +1,4 @@
-﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Xamarin.Forms.3.1.0.697729\build\netstandard2.0\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.3.1.0.697729\build\netstandard2.0\Xamarin.Forms.props')" />
   <Import Project="..\..\packages\Xamarin.Forms.2.4.0.282\build\netstandard1.0\Xamarin.Forms.props" Condition="Exists('..\..\packages\Xamarin.Forms.2.4.0.282\build\netstandard1.0\Xamarin.Forms.props')" />
   <PropertyGroup>
@@ -377,8 +377,11 @@
       <Link>VidyoClient-iOSSDK\include\csharp\VirtualShareManager.cs</Link>
     </Compile>
     <None Include="packages.config" />
-    <Compile Include="..\VidyoClient-iOSSDK\include\csharp\VirtualWindowShare.cs">
-      <Link>VidyoClient-iOSSDK\include\csharp\VirtualWindowShare.cs</Link>
+   <Compile Include="..\VidyoClient-iOSSDK\include\csharp\VirtualVideoSource.cs">
+      <Link>VidyoClient-iOSSDK\include\csharp\VirtualVideoSource.cs</Link>
+    </Compile>
+    <Compile Include="..\VidyoClient-iOSSDK\include\csharp\ByteArrayHelper.cs">
+      <Link>VidyoClient-iOSSDK\include\csharp\ByteArrayHelper.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
