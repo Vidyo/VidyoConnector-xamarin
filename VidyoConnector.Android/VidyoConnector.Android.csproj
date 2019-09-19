@@ -18,7 +18,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidSupportedAbis>arm64-v8a;armeabi-v7a;x86;x86_64</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -385,8 +384,11 @@
     <Compile Include="..\VidyoClient-AndroidSDK\include\csharp\VirtualShareManager.cs">
       <Link>VidyoClient-AndroidSDK\include\csharp\VirtualShareManager.cs</Link>
     </Compile>
-    <Compile Include="..\VidyoClient-AndroidSDK\include\csharp\VirtualWindowShare.cs">
-      <Link>VidyoClient-AndroidSDK\include\csharp\VirtualWindowShare.cs</Link>
+    <Compile Include="..\VidyoClient-AndroidSDK\include\csharp\VirtualVideoSource.cs">
+      <Link>VidyoClient-AndroidSDK\include\csharp\VirtualVideoSource.cs</Link>
+    </Compile>
+    <Compile Include="..\VidyoClient-AndroidSDK\include\csharp\ByteArrayHelper.cs">
+      <Link>VidyoClient-AndroidSDK\include\csharp\ByteArrayHelper.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
