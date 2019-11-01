@@ -451,6 +451,9 @@
     <Compile Include="..\VidyoClient-AndroidSDK\include\csharp\ByteArrayHelper.cs">
       <Link>VidyoClient-AndroidSDK\include\csharp\ByteArrayHelper.cs</Link>
     </Compile>
+    <Compile Include="..\VidyoClient-AndroidSDK\include\csharp\CameraControlCapabilities.cs">
+      <Link>VidyoClient-AndroidSDK\include\csharp\CameraControlCapabilities.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

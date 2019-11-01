@@ -382,6 +382,9 @@
     <Compile Include="..\VidyoClient-iOSSDK\include\csharp\ByteArrayHelper.cs">
       <Link>VidyoClient-iOSSDK\include\csharp\ByteArrayHelper.cs</Link>
     </Compile>
+    <Compile Include="..\VidyoClient-iOSSDK\include\csharp\CameraControlCapabilities.cs">
+      <Link>VidyoClient-iOSSDK\include\csharp\CameraControlCapabilities.cs</Link>
+    </Compile>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
