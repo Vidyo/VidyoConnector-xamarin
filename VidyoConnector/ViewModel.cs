@@ -28,7 +28,7 @@ namespace VidyoConnector
         bool   _cameraPrivacy            = false;
         bool   _microphonePrivacy        = false;
         string _host                     = "prod.vidyo.io";
-        string _token                    = ""; // INSERT VALID TOKEN
+        string _token                    = "cHJvdmlzaW9uAHVzZXIxQDg3MTFlMC52aWR5by5pbwA2Mzc0MTQwODIyMQAAOWM2YjQxMDNjODRlMWYxYzA1MmVjZjEwNDkzYjA2ODk5OTVlNjQzZDU4NGUwMTY0NTM0ZmZjNjBkNjUyMGE5YTRjYzExYzk1YzQxMzhiY2UxYTI4Y2Q3MDZlODgzZjM0"; // INSERT VALID TOKEN
         string _displayName              = "XamarinUser";
         string _resourceId               = "DemoRoom";
         string _toolbarStatus            = "Ready to Connect";
